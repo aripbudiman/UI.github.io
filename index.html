@@ -17,7 +17,7 @@
             <div class="form">
                 <div class="menu-circle"></div>
               <h2>Input Cashflow KBB</h2>
-              <div class="alert alert-warning alert-dismissible fade show d-none my-alert" role="alert">
+              <div class="alert alert-dismissible fade show d-none my-alert" role="alert">
                 <strong>Berhasil!</strong> Hore......
                 <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
               </div>
@@ -86,7 +86,7 @@
                 </div>
                 <div class="inputBox">
                   <label for="">Kartu Angsuran / reg Taber</label>
-                <input type="text" name="ka" value="0" placeholder="Kartu Angsuran/reg Taber" oninput="hitungSaldo()" oninput="hitungKartu()">
+                <input type="text" name="ka" value="0" placeholder="Kartu Angsuran/reg Taber" oninput="hitungSaldo() ;hitungKartu()">
                 </div>
                 <div class="inputBox">
                   <label for="">Buku Tabungan</label>
@@ -94,7 +94,7 @@
                 </div>
                 <div class="inputBox">
                   <label for="">Tambal Sulam</label>
-                <input type="text" name="tsulamrp" value="0" placeholder="Tambal Sulam" oninput="hitungSaldo()">
+                <input type="text" name="tsulamrp" value="0" placeholder="Tambal Sulam" oninput="hitungSaldo(); tambalSulam()">
                 </div>
                 <div class="inputBox">
                   <label for="">Biaya Admin</label>

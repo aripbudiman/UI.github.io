@@ -190,3 +190,22 @@ section .color:nth-child(3) {
   margin-left: 25px;
   color: #fff;
 }
+.form .alert {
+  background: rgba(114, 228, 114, 0.274);
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  border: 1px solid rgba(245, 241, 241, 0.5);
+  border-right: 1px solid rgba(245, 241, 241, 0.3);
+  border-bottom: 1px solid rgba(245, 241, 241, 0.5);
+  font-size: 16px;
+  letter-spacing: 1px;
+  color: #fff;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+  font-weight: 600;
+  max-width: 100%;
+  cursor: pointer;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}

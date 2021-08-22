@@ -79,28 +79,22 @@ function hitungSaldo(){
 
 }
 
-// function hitungSaldo(){
-//     var pf = parseInt(kartuAngsuran) / 1000;
-//     if(!isNaN(pf)){
-//         $('input[name="rtpf"]').val(pf);
-//     }else{
-//         $('input[name="rtpf"]').val(0);
-//     }
-// }
+function hitungKartu(){
+    var kartu = $('input[name="ka"]').val();
+    var pf = parseInt(kartu) / 1000;
+    if(!isNaN(pf)){
+        $('input[name="rtpf"]').val(pf);
+    }else{
+        $('input[name="rtpf"]').val(0);
+    }
+}
 
-    // var pf = parseInt(kartuAngsuran) / 1000;
-    // if(!isNaN(pf)){
-    //     $('input[name="rtpf"]').val(pf);
-    // }else{
-    //     $('input[name="rtpf"]').val(0);
-    // }
-
-// function hitungKartu(){
-//     var kartu = $('input[name="ka"]').val();
-//     var pf = parseInt(kartu) / 1000;
-//     if(!isNaN(pf)){
-//         $('input[name="rtpf"]').val(pf);
-//     }else{
-//         $('input[name="rtpf"]').val(0);
-//     }
-// }
+function tambalSulam(){
+    var sulam = $('input[name="tsulamrp"]').val();
+    var tambalPf = parseInt(sulam) / 20000;
+    if(!isNaN(tambalPf)){
+        $('input[name="tspf"]').val(tambalPf);
+    }else{
+        $('input[name="tspf"]').val(0)
+    }
+}
